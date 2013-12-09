@@ -1,0 +1,3 @@
+﻿Riak
+Redis
+Memcached

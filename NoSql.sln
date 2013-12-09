@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSql.KeyValue", "NoSql.KeyValue\NoSql.KeyValue.csproj", "{5F5AD5BA-327C-471D-BE7B-4914FCC26BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSql.DocumentBased", "NoSql.DocumentBased\NoSql.DocumentBased.csproj", "{FB1A970F-B948-4580-B0C6-976B90BA6746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSql.BigTable", "NoSql.BigTable\NoSql.BigTable.csproj", "{C9876E46-A648-466E-9788-F053EE1C9712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSql.Graph", "NoSql.Graph\NoSql.Graph.csproj", "{E1DD9165-83C9-4F72-8F3C-09B7F7D77630}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7C41693C-65D6-45C6-8074-851AFA56B9C8}"
+	ProjectSection(SolutionItems) = preProject
+		CorrugatedIron-develop\.nuget\NuGet.Config = CorrugatedIron-develop\.nuget\NuGet.Config
+		CorrugatedIron-develop\.nuget\nuget.exe = CorrugatedIron-develop\.nuget\nuget.exe
+		CorrugatedIron-develop\.nuget\NuGet.targets = CorrugatedIron-develop\.nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSql.Runner", "NoSql.Runner\NoSql.Runner.csproj", "{1B727F53-0F29-46C6-BBA7-4AF13AC1C2D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSql.Common", "NoSql.Common\NoSql.Common.csproj", "{BE7E3ACB-1A65-448B-877B-1D906EC6627E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F5AD5BA-327C-471D-BE7B-4914FCC26BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5AD5BA-327C-471D-BE7B-4914FCC26BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5AD5BA-327C-471D-BE7B-4914FCC26BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5AD5BA-327C-471D-BE7B-4914FCC26BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1A970F-B948-4580-B0C6-976B90BA6746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1A970F-B948-4580-B0C6-976B90BA6746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1A970F-B948-4580-B0C6-976B90BA6746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1A970F-B948-4580-B0C6-976B90BA6746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9876E46-A648-466E-9788-F053EE1C9712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9876E46-A648-466E-9788-F053EE1C9712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9876E46-A648-466E-9788-F053EE1C9712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9876E46-A648-466E-9788-F053EE1C9712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1DD9165-83C9-4F72-8F3C-09B7F7D77630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1DD9165-83C9-4F72-8F3C-09B7F7D77630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1DD9165-83C9-4F72-8F3C-09B7F7D77630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1DD9165-83C9-4F72-8F3C-09B7F7D77630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B727F53-0F29-46C6-BBA7-4AF13AC1C2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B727F53-0F29-46C6-BBA7-4AF13AC1C2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B727F53-0F29-46C6-BBA7-4AF13AC1C2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B727F53-0F29-46C6-BBA7-4AF13AC1C2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7E3ACB-1A65-448B-877B-1D906EC6627E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7E3ACB-1A65-448B-877B-1D906EC6627E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7E3ACB-1A65-448B-877B-1D906EC6627E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7E3ACB-1A65-448B-877B-1D906EC6627E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CorrugatedIron\CorrugatedIron.csproj
+		Policies = $0
+		$0.TextStylePolicy = $4
+		$1.FileWidth = 120
+		$1.TabsToSpaces = False
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.StatementBraceStyle = NextLine
+		$3.ElseIfNewLinePlacement = SameLine
+		$3.BeforeMethodDeclarationParentheses = False
+		$3.BeforeMethodCallParentheses = False
+		$3.BeforeConstructorDeclarationParentheses = False
+		$3.BeforeIndexerDeclarationBracket = False
+		$3.BeforeDelegateDeclarationParentheses = False
+		$3.AfterDelegateDeclarationParameterComma = True
+		$3.NewParentheses = False
+		$3.SpacesBeforeBrackets = False
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
+		$4.FileWidth = 120
+		$4.EolMarker = Unix
+		$4.inheritsSet = VisualStudio
+		$4.inheritsScope = text/plain
+		$4.scope = text/plain
+		$0.DotNetNamingPolicy = $5
+		$5.DirectoryNamespaceAssociation = None
+		$5.ResourceNamePolicy = FileFormatDefault
+	EndGlobalSection
+EndGlobal
